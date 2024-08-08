@@ -31,4 +31,4 @@ build_gotty:
 build_all: build_web build_gotty build_bin
 
 build_docker:
-	docker build -t clusteroperator/kubepi-server:master .
+	docker build -t ecs-operator.nexus.com:8083/test/kubepi-server:master .
